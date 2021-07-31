@@ -1,6 +1,3 @@
-
-# Merhaba ben Mercy.
-
 ## Ücretsiz SMS sistemi Hakkında
 - Ücretsiz api kullanılarak yapılmış bir bottur.
 - Bot hakettiği derecede star alınca ücretsiz apiyi paylaşacağım söz.
