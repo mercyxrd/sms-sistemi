@@ -1,8 +1,8 @@
-const Vonage = require('@vonage/server-sdk');
+const ehehehe = require('Api yakında paylaşılacakkk');
 const { mercxy } = require('mercy.js');
 const conf = require("./config/settings")
 const mercxy = new mercxy();
-const mercyApi = new Vonage({ 
+const mercyApi = new ehehehe({ 
   apiKey: conf.mercy.api_key, // projenin readme dosyasını okuyun xd
   apiSecret: conf.mercy.api_secret // projenin readme dosyasını okuyun xd
 }); 
