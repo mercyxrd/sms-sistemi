@@ -1,4 +1,5 @@
 # Ücretsiz Sms Sistemi xd
+Aman aman nereye geldik, aşağıyı okuyun.
 
 ## Açıklama
 
