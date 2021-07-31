@@ -4,8 +4,8 @@
 - Şimdilik sadece altyapıyı buraya bırakıyorum içinde sadece rol silme log olayı var roleUpdate, channelDelete gibi geliştirirsiniz
 
 ## Neden Paylaşıldı?
-- Ben açıkcası bu sistemi boş bir sistem olarak görüyorum ihtiyacı olan alsın kullansın.
-
+- Ben açıkcası bu sistemi boş bir sistem olarak görüyorum ihtiyacı olan alsın kullansın diye paylaşmaya karar verdim
+- 2-3 gün içinde bu botla birlikte rol dağıtan database botuda paylaşacağım
 ## Görseller
 [![Görsel](https://media.discordapp.net/attachments/415588524151144448/871033920588759130/5b4b95a0-be4c-4afb-86cf-f27149d711ea.png?width=312&height=676)
 
