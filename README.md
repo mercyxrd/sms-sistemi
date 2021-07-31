@@ -1,3 +1,5 @@
+# Neden Paylaşıldı?
+- Ben açıkcası bu sistemi boş bir sistem olarak görüyorum ihtiyacı olan alsın kullansın.
 ## Ücretsiz SMS sistemi Hakkında
 - Ücretsiz api kullanılarak yapılmış bir bottur.
 - Bot hakettiği derecede star alınca ücretsiz apiyi paylaşacağım söz.
