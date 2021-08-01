@@ -1,7 +1,7 @@
 const Vonage = require('@vonage/server-sdk');
 const conf = require("./config/settings")
-const { Clientx } = require('discord.js');
-const client = new Clientx()
+const Discord = require('discord.js');
+const Clientx = new Discord.Client({ fetchAllMembers: true });
 const mercyApi = new Vonage({ 
   apiKey: conf.mercy.api_key, // projenin readme dosyasını okuyun 
   apiSecret: conf.mercy.api_secret // projenin readme dosyasını okuyun 
