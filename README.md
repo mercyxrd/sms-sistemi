@@ -1,13 +1,12 @@
 # Ücretsiz SMS sistemi Hakkında
 - Ücretsiz api kullanılarak yapılmış bir bottur.
-- Altyapıyı paylaştım içerisinde sadece rol silme log olayı bulunmakta geliştirirsiniz.
+- Altyapıda sadece rol silme sms olayı var geliştirirsiniz
 
 ## Neden Paylaşıldı?
-- Daha öncede paylaşılmıştı, şimdi tekrardan paylaştım
 - Ben açıkcası bu sistemi boş bir sistem olarak görüyorum ihtiyacı olan alsın kullansın diye paylaşmaya karar verdim
 ## Nasıl Api-key ve Api-secret kodunu alırım?
 - İlk olarak [Nexmo](https://dashboard.nexmo.com/sign-up) sitesine girip kayıt oluyorsunuz. 
-- Daha sonra size yönlendirmeler yapılıyor zaten, ekstra olarak site paneli üzerinden kendinize kolayca test sms'i gönderebilirsiniz.
+- Daha sonra size yönlendirmeler yapılıyor zaten, ekstra olarak site paneli üzerinden kendinize kolayca test sms'i gönderebilirsiniz
 - Api-key & Api-secret'a ulaşmakta sorun yaşıyorsanız [buraya](https://help.nexmo.com/hc/en-us/articles/204014493-Where-can-I-find-my-API-key-and-API-secret-) tıklayın.
 ## Görseller
 ![Görsel](https://media.discordapp.net/attachments/869647243244867634/871346200891228170/Ekran_Alnts.PNG?width=928&height=676)
