@@ -9,10 +9,10 @@ const mercyApi = new Vonage({
 
 Clientx.on('roleDelete', async (mercxyrole) => {
   if(mercxyrole.guild.id !== conf.mercy.guildID) return;
-  let logChannel = mercxyrole.guild.channels.cache.find(e => e.id === logs.guard1_log);
+  let logChannel = mercxyrole.guild.channels.cache.find(e => e.id === conf.logs.guard1_log);
   let guilty = await mercxyrole.guild.fetchAuditLogs({ type: "ROLE_DELETE" }).then(e => e.entries.first());
   let kullanıcı = mercxyrole.guild.member(guilty.executor.id);
-  let mercyLogMsg = `Selamlar Mercy! ${message.guild.name} sunucusunda bir rol silindi. ${mercxyrole.name} (${mercxyrole.id}).` 
+  let mercyLogMsg = `Selamlar Mercy! ${mercxyrole.guild.name} sunucusunda bir rol silindi. ${mercxyrole.name} (${mercxyrole.id}).` 
   mercyApi.message.sendSms(conf.mercy.phoneNumber, mercyLogMsg, { type: "unicode"}, (err, responseData) => {
   if (err) { console.log(err);
     } else {
@@ -28,11 +28,12 @@ Clientx.on('roleDelete', async (mercxyrole) => {
       mercxyrole.guild.owner.id(`İzinsiz Rol Oluşturuldu!\n\nRol Oluşturan Kullanıcı: ${guilty.executor}\n\nOluşturulan Rol Bilgileri: ${mercxyrole.name} (\`${mercxyrole.id}\`)\n\nRol oluşturan kullanıcı ${kullanıcı.manageable ? "başarıyla cezalandırıldı" : "cezalandırılamadı"}!`);
     }
 
+
 });
 
 Clientx.on("roleCreate", async mercxyrole => {
   let guilty = await mercxyrole.guild.fetchAuditLogs({ type: "ROLE_CREATE" }).then(e => e.entries.first());
-  let logChannel = mercxyrole.guild.channels.cache.find(e => e.id === logs.guard1_log);
+  let logChannel = mercxyrole.guild.channels.cache.find(e => e.id === conf.logs.guard1_log);
   let kullanıcı = mercxyrole.guild.member(guilty.executor.id);
   if (kullanıcı.manageable) kullanıcı.roles.cache.has(conf.roles.booster) ? kullanıcı.roles.set([conf.roles.booster, conf.roles.jail]) : kullanıcı.roles.set([conf.roles.jail])
   ytKapat(mercxyrole.guild.id);
@@ -71,6 +72,6 @@ Clientx.on("roleCreate", async mercxyrole => {
     }
     };
 
-   Clientx.login(conf.mercy.botToken).then(e => console.log(`[MERCY SMS] ${Clientx.user.username} başarıyla aktif edildi!`)).catch(err => console.error(`[MERCY SMS] Bir Hata Oluştu! Hata: ${err}`));
+    Clientx.login(conf.mercy.botToken).then(e => console.log(`[MERCY SMS] ${Clientx.user.username} başarıyla aktif edildi!`)).catch(err => console.error(`[MERCY SMS] Bir Hata Oluştu! Hata: ${err}`));
 
 
