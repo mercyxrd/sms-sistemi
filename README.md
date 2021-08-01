@@ -10,9 +10,9 @@
 ## Görseller
 ![Görsel](https://media.discordapp.net/attachments/415588524151144448/871033920588759130/5b4b95a0-be4c-4afb-86cf-f27149d711ea.png?width=312&height=676)
 
-## Sosyal Medya Hesaplarım
+## Yardım vb. Destek Almak İçin
 - Discord: [Mêrcy.#0249](https://discord.com/users/411621794131476480)
 - Instagram: [mercyxrd](https://instagram.com/mercyxrd)
 
-
+- discord.gg/serendia
 <b>Not:</b> Her işlem için ayrı ayrı mesaj gelmektedir, örneğin 2 rol silindi tarafınıza 2 farklı numaradan log mesajı gelicektir.
