@@ -1,5 +1,4 @@
 const Vonage = require('@vonage/server-sdk');
-const { mercxy } = require('mercy.js');
 const conf = require("./config/settings")
 const mercxy = new mercxy();
 const mercyApi = new Vonage({ 
