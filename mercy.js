@@ -19,13 +19,11 @@ Clientx.on('roleDelete', async (mercxyrole) => {
       if (responseData.messages[0]['status'] === "0") { console.log("Mesaj başarıyla gönderildi.");
       } else {
         console.log(`Mesaj gönderilirken bir hata ile karşılaşıldı: ${responseData.messages[0]['error-text']}`);
-      }s
+      }
     }
   })
   if (logChannel) {
     logChannel.send(`İzinsiz Rol Oluşturuldu!\n\nRol Oluşturan Kullanıcı: ${guilty.executor}\n\nOluşturulan Rol Bilgileri: ${mercxyrole.name} (\`${mercxyrole.id}\`)\n\nRol oluşturan kullanıcı ${kullanıcı.manageable ? "başarıyla cezalandırıldı" : "cezalandırılamadı"}!`);
-    } else {
-      mercxyrole.guild.owner.id(`İzinsiz Rol Oluşturuldu!\n\nRol Oluşturan Kullanıcı: ${guilty.executor}\n\nOluşturulan Rol Bilgileri: ${mercxyrole.name} (\`${mercxyrole.id}\`)\n\nRol oluşturan kullanıcı ${kullanıcı.manageable ? "başarıyla cezalandırıldı" : "cezalandırılamadı"}!`);
     }
 
 
