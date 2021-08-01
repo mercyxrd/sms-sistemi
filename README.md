@@ -4,6 +4,7 @@
 
 ## Neden Paylaşıldı?
 - Ben açıkcası bu sistemi boş bir sistem olarak görüyorum ihtiyacı olan alsın kullansın diye paylaşmaya karar verdim
+- Artı olarak küçük hatalar olabilir, aldığınız hataları google'da aratarak yardım alabilirsiniz.
 ## Nasıl Api-key ve Api-secret kodunu alırım?
 - İlk olarak [Nexmo](https://dashboard.nexmo.com/sign-up) sitesine girip kayıt oluyorsunuz. 
 - Daha sonra size yönlendirmeler yapılıyor zaten, ekstra olarak site paneli üzerinden kendinize kolayca test sms'i gönderebilirsiniz
