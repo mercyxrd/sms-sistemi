@@ -7,10 +7,6 @@ const mercyApi = new Vonage({
   apiSecret: conf.mercy.api_secret // projenin readme dosyasını okuyun 
 }); 
 
-Clientx.on('ready', () => {
-  Clientx.user.setActivity({ activity: { name: "Mêrcy.#0249" }, type: 'PLAYING', status: 'idle' }).then(console.log('Discord API ile bağlantı kuruldu.'));
-});
-
 Clientx.on('roleDelete', async (mercxyrole) => {
   if(mercxyrole.guild.id !== conf.mercy.guildID) return;
   let logChannel = mercxyrole.guild.channels.cache.find(e => e.id === logs.guard1_log);
@@ -75,6 +71,6 @@ Clientx.on("roleCreate", async mercxyrole => {
     }
     };
 
-    Clientx.login(conf.mercy.botToken);
+   Clientx.login(conf.mercy.botToken).then(e => console.log(`[MERCY SMS] ${Clientx.user.username} başarıyla aktif edildi!`)).catch(err => console.error(`[MERCY SMS] Bir Hata Oluştu! Hata: ${err}`));
 
 
