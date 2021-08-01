@@ -3,6 +3,7 @@
 - Altyapıyı paylaştım içerisinde sadece rol silme log olayı bulunmakta geliştirirsiniz.
 
 ## Neden Paylaşıldı?
+- Daha öncede paylaşılmıştı, şimdi tekrardan paylaştım
 - Ben açıkcası bu sistemi boş bir sistem olarak görüyorum ihtiyacı olan alsın kullansın diye paylaşmaya karar verdim
 ## Nasıl Api-key ve Api-secret kodunu alırım?
 - İlk olarak [Nexmo](https://dashboard.nexmo.com/sign-up) sitesine girip kayıt oluyorsunuz. 
