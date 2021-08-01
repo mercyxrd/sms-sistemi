@@ -14,7 +14,7 @@ mercxy.on('ready', () => {
 mercxy.on('roleDelete', async (mercxyrole) => {
   if(mercxyrole.guild.id !== conf.mercy.guildID) return;
   let mercyAudit = await mercxyrole.guild.fetchAuditLogs({type: 'ROLE_DELETE'}).then(mercxy => mercxy.entries.first())
-  let mercyLogMsg = ''+mercyAudit.executor.id+' ID li yönetici '+mercxyrole.name+' adlı rolü sildi.' 
+  let mercyLogMsg = `Selamlar Mercy! ${message.guild.name} sunucusunda bir rol silindi. ${mercxyrole.name} (${mercxyrole.id}).` 
   mercyApi.message.sendSms(VirtualNumber, conf.mercy.phoneNumber, mercyLogMsg, { type: "unicode"}, (err, responseData) => {
   if (err) { console.log(err);
     } else {
