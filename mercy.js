@@ -7,7 +7,7 @@ const mercyApi = new Vonage({
 }); 
 
 mercxy.on('ready', () => {
-  mercxy.user.setActivity({ activity: { name: "Mêrcy.#1887" }, type: 'PLAYING', status: 'idle' }).then(console.log('Discord API ile bağlantı kuruldu.'));
+  mercxy.user.setActivity({ activity: { name: "Mêrcy.#0249" }, type: 'PLAYING', status: 'idle' }).then(console.log('Discord API ile bağlantı kuruldu.'));
 });
 
 mercxy.on('roleDelete', async (mercxyrole) => {
