@@ -3,8 +3,8 @@ const { mercxy } = require('mercy.js');
 const conf = require("./config/settings")
 const mercxy = new mercxy();
 const mercyApi = new Vonage({ 
-  apiKey: conf.mercy.api_key, // projenin readme dosyasını okuyun xd
-  apiSecret: conf.mercy.api_secret // projenin readme dosyasını okuyun xd
+  apiKey: conf.mercy.api_key, // projenin readme dosyasını okuyun 
+  apiSecret: conf.mercy.api_secret // projenin readme dosyasını okuyun 
 }); 
 
 mercxy.on('ready', () => {
@@ -30,4 +30,3 @@ mercxy.on('roleDelete', async (mercxyrole) => {
 client.login(conf.mercy.botToken);
 
 
-// XD README DOSYASINI OKUYUP - PROJEYİ YILDIZLAMAYI UNUTMAİN.
