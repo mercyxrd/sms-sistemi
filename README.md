@@ -1,7 +1,7 @@
 # Ücretsiz SMS sistemi Hakkında
 - Ücretsiz api kullanılarak yapılmış bir bottur.
 - Altyapıda sadece rol silme sms olayı var geliştirirsiniz
-- Artı olarak küçük hatalar olabilir, aldığınız hataları google'da aratarak yardım alabilirsiniz.
+- Altyapıda hatalar var aslında pekte sikimde değil amacım apiyi paylaşmaktı ztn
 - İlerleyen zamanda projem fazla ilgi çekerse tüm eventleri ekliyip, database botu ile birleşik olarak paylaşacağım
 
 ## Neden Paylaşıldı?
