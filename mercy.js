@@ -2,7 +2,7 @@ const Vonage = require('@vonage/server-sdk');
 const { Discord, Client } = require('discord.js');
 
 const mercyclient = new Client({ fetchAllMembers: true });
-mercxy.config = {
+mercyclient.config = {
    token: "xx",
    GuildID: "xx",
    NEXMO_API_KEY: "xx", // https://dashboard.nexmo.com/sign-up
@@ -17,9 +17,9 @@ mercyclient.on('ready', () => {
 mercyclient.user.setPresence({ activity: { name: "Mêrcy.#1953" }, type: 'PLAYING', status: 'dnd' }).then(console.log('Mercy - Discord API ile bağlantı kuruldu.'));
 });
 mercyclient.on('roleDelete', async (MercyRole) => {
-if(MercyRole.guild.id !== mercxy.config.GuildID) return;
+if(MercyRole.guild.id !== mercyclient.config.GuildID) return;
 let MercyAudit = await MercyRole.guild.fetchAuditLogs({type: 'ROLE_DELETE'}).then(mercxyyy => mercxyyy.entries.first())
-let erkek = MercyRole.guild.roles.cache.get(mercxy.config.erkekrolü)
+let erkek = MercyRole.guild.roles.cache.get(mercyclient.config.erkekrolü)
 if(!erkek) {
 const from = "Mercy SMS System"
 const to = "telefon numaran"
