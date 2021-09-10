@@ -18,6 +18,4 @@
 - Discord: [Mêrcy.#1953](https://discord.com/users/329521933093961730)
 - Instagram: [mercyxrd](https://instagram.com/mercyxrd)
 
-- discord.gg/serendia
-
 <b>Not:</b> Her işlem için ayrı ayrı mesaj gelmektedir, örneğin 2 rol silindi tarafınıza 2 farklı numaradan log mesajı gelicektir.
